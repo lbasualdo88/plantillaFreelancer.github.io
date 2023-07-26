@@ -1,0 +1,16 @@
+
+.anexos_titulo {
+    color: var(--color4);
+}
+.anexos h1:hover {  
+    color: var(--Color3);
+}
+.construccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.construccion__contenido-p {
+    text-align: center;
+}
