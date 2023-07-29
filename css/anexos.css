@@ -49,3 +49,27 @@
     display: flex;
     justify-content: center;
 }
+@media (max-width: 480px) {
+    .contenedor {
+        margin: 1rem;
+    }
+   .img-laptop, .img-tablet {
+    display: none;
+   }
+   .proyecto__info{
+    margin: 1rem;
+    padding: 0;
+   }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .contenedor {
+        margin: 1rem;
+    }
+   .img-laptop, .img-movil {
+    display: none;
+   }
+   .proyecto__info{
+    margin: 1rem;
+    padding: 0;
+   }
+}
