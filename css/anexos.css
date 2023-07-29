@@ -1,4 +1,14 @@
-
+.construccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+}
+.construccion__contenido img{
+    max-height: 300px;
+}
 .anexos_titulo {
     color: var(--color4);
 }
