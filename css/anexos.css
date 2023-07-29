@@ -19,6 +19,7 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    height: 181px;
 }
 .proyecto__imagen {
     max-width: 150px;
@@ -38,6 +39,7 @@
    flex-direction: row;
    justify-content: center;
    margin: 2rem;
+   gap: 1rem;
 }
 .icono {
     max-height: 50px;
