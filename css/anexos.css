@@ -5,12 +5,45 @@
 .anexos h1:hover {  
     color: var(--Color3);
 }
-.construccion {
+
+.titulo-proyecto {
+    text-align: center;
+}
+.contenido {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-content: center;
 }
-.construccion__contenido-p {
-    text-align: center;
+.proyecto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.proyecto__imagen {
+    max-width: 150px;
+    max-height: 300px;
+}
+
+.img-laptop {
+    max-width: 300px;
+}
+.proyecto__info {
+    margin: 1rem 3rem;
+    padding: 0 10rem;
+    text-align:justify;
+}
+.iconos {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 2rem;
+}
+.icono {
+    max-height: 50px;
+    align-items: center;
+}
+.proyecto__boton {
+    display: flex;
+    justify-content: center;
 }
