@@ -23,6 +23,8 @@
   <link  rel="stylesheet" href="css/navegacion.css"> 
   <link rel="preload" href="css/globales.css" as="style">
   <link  rel="stylesheet" href="css/globales.css"> 
+  <link rel="preload" href="css/trampaBots.css" as="style">
+  <link  rel="stylesheet" href="css/trampaBots.css"> 
   
   
 </head>
@@ -118,8 +120,9 @@
 <section>    
     <h2>Contacto</h2>
 
-<form id="contactar" class="formulario" data-netlify="true" method="POST" onsubmit="submit">
+<form id="contactar" class="formulario" data-netlify="true" method="POST" onsubmit="submit" netlify-honeypot="bot-field" action="/success.html">
    
+    <input class="trampa" name="bot-field">
     <fieldset>
         <legend>Contactanos llenando todos los campos</legend>
         <div class="contenedor-campos">
@@ -153,6 +156,7 @@
             <span class="campo_obligatorio">* Campo obligatorio</span>
             <button class="boton w-sm-100 botonEnviar" type="submit">Enviar</button>
         </div>
+        <div data-netlify-recaptcha="true"></div>
   
     </fieldset> 
 </form>

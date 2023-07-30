@@ -1,0 +1,21 @@
+
+.mensaje_fondo {
+    margin: 15rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color5);
+    max-height: 50rem;
+    max-width: 50rem;
+}
+.mensaje {
+    color: var(--Color3);
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+}
+.mensaje_img {
+    align-self: center;
+    max-height: 50px;
+    max-width: 60px;
+}
