@@ -19,3 +19,10 @@
     max-height: 50px;
     max-width: 60px;
 }
+.btn-aceptar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 50rem;
+   
+}
