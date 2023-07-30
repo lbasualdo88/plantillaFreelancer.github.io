@@ -9,8 +9,20 @@
   <link rel="preload" href="css/normalize.css" as="style">
   <link rel="stylesheet" href="css/normalize.css"> 
   <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet"> 
-  <link rel="preload" href="css/style.css" as="style">
-  <link  rel="stylesheet" href="css/style.css"> 
+  <link rel="preload" href="css/utilidades.css" as="style">
+  <link  rel="stylesheet" href="css/utilidades.css"> 
+  <link rel="preload" href="css/formulario.css" as="style">
+  <link  rel="stylesheet" href="css/formulario.css"> 
+  <link rel="preload" href="css/footer.css" as="style">
+  <link  rel="stylesheet" href="css/footer.css"> 
+  <link rel="preload" href="css/misServicios.css" as="style">
+  <link  rel="stylesheet" href="css/misServicios.css"> 
+  <link rel="preload" href="css/hero.css" as="style">
+  <link  rel="stylesheet" href="css/hero.css"> 
+  <link rel="preload" href="css/navegacion.css" as="style">
+  <link  rel="stylesheet" href="css/navegacion.css"> 
+  <link rel="preload" href="css/globales.css" as="style">
+  <link  rel="stylesheet" href="css/globales.css"> 
   
   
 </head>
@@ -24,7 +36,7 @@
 <a href="productos.html">Proyectos</a>
 <a href="clientes.html">Clientes</a>
 <a href="nosotros.html">Sobre Mi</a>
-<a href="contacto.html">Contacto</a>
+
 </nav>
 </div>
 
@@ -42,7 +54,7 @@
         </svg>  
          <p>Rosario, Santa Fe</p>
    </div>
-         <a class="boton botonContactar" href="#">Contactar</a>
+         <a class="boton botonContactar" href="#contactar">Contactar</a>
         </div>    
     </section>
 
@@ -106,35 +118,40 @@
 <section>    
     <h2>Contacto</h2>
 
-<form class="formulario">
+<form id="contactar" class="formulario">
    
     <fieldset>
         <legend>Contactanos llenando todos los campos</legend>
         <div class="contenedor-campos">
 
             <div class="campo">      
-                 <label>Nombre</label>
-                 <input class="input-text" type="text" placeholder="Nombre">
+                 <label class="input-label">Nombre <span class="campo_obligatorio">(*)</span></label>
+                 <input class="input-text input-text-color input-invalido" type="text" placeholder="Nombre" required data-tipo="nombre">
+                 <span class="input-mensaje-error"></span>
             </div>
             
             <div class="campo">  
-                 <label>Telefono</label>
-                 <input class="input-text" type="tel" placeholder="Telefono">
+                 <label class="input-label">Telefono</label>
+                 <input class="input-text input-invalido" type="tel" placeholder="Telefono" data-tipo="telefono" pattern="\d{10}" minlength="10" maxlength="10">
+                 <span class="input-mensaje-error"></span>
             </div>
             
             <div class="campo">
-                 <label>Correo</label>
-                 <input class="input-text" type="email" placeholder="Correo">
+                 <label class="input-label">Correo <span class="campo_obligatorio">(*)</span></label>
+                 <input class="input-text input-invalido" type="email" placeholder="Correo" required data-tipo="email">
+                 <span class="input-mensaje-error"></span>
             </div>
 
             <div class="campo">
-                 <label>Mensaje</label>
-                 <textarea class="input-text"></textarea>
+                 <label class="input-label">Mensaje <span class="campo_obligatorio">(*)</span></label>
+                 <textarea class="input-text input-invalido" required data-tipo="textarea"></textarea>
+                 <span class="input-mensaje-error"></span>
             </div>
         </div>
-    
+        
         <div class="alinear-derecha flex">    
-             <button class="boton w-sm-100 botonEnviar" type="submit">Enviar</button>
+            <span class="campo_obligatorio">* Campo obligatorio</span>
+            <button class="boton w-sm-100 botonEnviar" type="submit">Enviar</button>
         </div>
   
     </fieldset> 
@@ -148,7 +165,8 @@
      <p>Todos los derechos reservados</p>
     </footer>
 </div>
-<script src="/js/script.js"></script>
+<script src="/js/validacionForm.js"></script>
+<script src="/js/scrollContactar.js"></script>
 </body>
 </html>
 

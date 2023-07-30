@@ -1,0 +1,67 @@
+
+.formulario {
+    background-color: var(--color5);
+    width: min(60rem, 100%); /** Utilizar el valor mas pequeño **/
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.formulario fieldset {
+    border: none;
+} 
+
+
+.formulario legend {
+    text-align: center;
+    font-size:  1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--Color3);
+}
+@media (min-width: 768px) {
+    .contenedor-campos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto 20rem;
+    column-gap: 1rem;
+}
+
+.campo:nth-child(3), 
+.campo:nth-child(4) {
+    grid-column: 1 / 3;
+}
+
+}
+.campo {
+    margin-bottom: 1rem;
+}
+.campo label {
+    color: var(--Color1);
+    font-weight: bold;
+    margin-bottom:  .5rem;
+    display: block;
+}
+.campo textarea {
+    height: 18rem;
+}
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.input-mensaje-error {
+    color: var(--Color3);
+    margin-bottom: 0.5rem;
+}
+
+.campo_obligatorio {
+    font-size: 1rem;
+    color: var(--Color1);
+    font-weight: 50;
+    align-self: flex-end;
+}

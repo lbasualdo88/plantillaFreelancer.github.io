@@ -1,0 +1,34 @@
+/* Navegacion Principal*/
+
+.nav-bg{
+    background-color: var(--color4);
+    
+}
+.navegacion-principal{
+display: flex; 
+flex-direction: column;
+
+
+
+}
+@media (min-width: 768px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+}
+.navegacion-principal a{
+    color: var(--Color1);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.navegacion-principal a:hover{
+    background-color: var(--Color3);
+    color: var(--Color2);
+
+}

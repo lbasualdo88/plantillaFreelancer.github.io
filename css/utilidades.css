@@ -1,0 +1,115 @@
+:root{
+    --Color1: #ffffff;
+    --Color2: #212121;
+    --Color3: #ffc107;
+    --color4: #0097A7;
+    --color5: #757575;
+    --color6: #DFE9F3;
+    --color7: #e2b900;
+}
+
+/* Globales */
+
+html{
+    font-size: 62.5%; /*ayuda a que la medida rem se adapte a distintas pantallas */
+    box-sizing: border-box; /* Hack para box model *//*ayuda a que no se generen conflicto de medidas con el pading*/
+    scroll-snap-type: y mandatory;
+}
+
+*, *:before, *:after {box-sizing: inherit; } /*ayuda a que no se generen conflicto de medidas con el pading*/
+body{
+    font-size: 16px; /* 1rem = 10px */ /*ayuda a que la medida rem se adapte a distintas pantallas */
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--color6) 0%, var(--Color1) 100% );
+    
+}
+.contenedor {
+    max-width: 120rem; /*toma como maximo 1200px=120rem, si es menos se adacta solo*/
+    margin: 0 auto 0 auto;
+   
+}
+.boton {
+    background-color: var(--color4);
+    color: var(--Color1);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+@media (min-width: 768px) {
+    .boton {
+        width: auto;
+    }
+}
+.boton:hover {
+    cursor: pointer;
+}
+
+.sombra {
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: var(--Color1);
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+/* Tipografia */
+
+
+h1 {
+    font-size: 3.8rem;
+   color: #212121;
+}
+h2 {
+font-size: 2.8rem;
+}
+h3 {
+font-size: 1.8rem;
+}
+h1,h2,h3 {
+    text-align: center;
+}
+
+/* titulos */
+
+span{
+    font-size: 1.5rem;
+    
+}
+
+
+ /** Utilidades**/
+
+ .w-sm-100 {
+     width: 100%;
+ }
+
+ @media (min-width: 768px) {
+     .w-sm-100{
+         width: auto;
+     }
+ }
+
+.flex {
+     display: flex;
+
+}
+.alinear-derecha {
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+
+
+
