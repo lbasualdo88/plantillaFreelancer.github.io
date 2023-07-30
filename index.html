@@ -118,7 +118,7 @@
 <section>    
     <h2>Contacto</h2>
 
-<form id="contactar" class="formulario">
+<form id="contactar" class="formulario" data-netlify="true" method="POST" onsubmit="submit">
    
     <fieldset>
         <legend>Contactanos llenando todos los campos</legend>
@@ -126,25 +126,25 @@
 
             <div class="campo">      
                  <label class="input-label">Nombre <span class="campo_obligatorio">(*)</span></label>
-                 <input class="input-text input-text-color input-invalido" type="text" placeholder="Nombre" required data-tipo="nombre">
+                 <input class="input-text input-text-color input-invalido" type="text" placeholder="Nombre" required data-tipo="nombre" name="name">
                  <span class="input-mensaje-error"></span>
             </div>
             
             <div class="campo">  
                  <label class="input-label">Telefono</label>
-                 <input class="input-text input-invalido" type="tel" placeholder="Telefono" data-tipo="telefono" pattern="\d{10}" minlength="10" maxlength="10">
+                 <input class="input-text input-invalido" type="tel" placeholder="Telefono" data-tipo="telefono" pattern="\d{10}" minlength="10" maxlength="10" name="tel">
                  <span class="input-mensaje-error"></span>
             </div>
             
             <div class="campo">
                  <label class="input-label">Correo <span class="campo_obligatorio">(*)</span></label>
-                 <input class="input-text input-invalido" type="email" placeholder="Correo" required data-tipo="email">
+                 <input class="input-text input-invalido" type="email" placeholder="Correo" required data-tipo="email" name="email">
                  <span class="input-mensaje-error"></span>
             </div>
 
             <div class="campo">
                  <label class="input-label">Mensaje <span class="campo_obligatorio">(*)</span></label>
-                 <textarea class="input-text input-invalido" required data-tipo="textarea"></textarea>
+                 <textarea class="input-text input-invalido" required data-tipo="textarea" name="message"></textarea>
                  <span class="input-mensaje-error"></span>
             </div>
         </div>
