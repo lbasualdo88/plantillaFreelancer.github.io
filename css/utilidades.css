@@ -86,23 +86,24 @@ span{
  /** Utilidades**/
 
  .w-sm-100 {
+    margin-left: 2rem;
      width: 100%;
  }
+ 
 
  @media (min-width: 768px) {
      .w-sm-100{
          width: auto;
      }
+     .flex {
+          display: flex;
+     
+     }
+     .alinear-derecha {
+         justify-content: space-between;
+     }
  }
 
-.flex {
-     display: flex;
-
-}
-.alinear-derecha {
-    justify-content: space-between;
-
-}
 
 a {
     text-decoration: none !important;
