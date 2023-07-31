@@ -1,0 +1,9 @@
+.volver {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.volver a{
+    align-self: center;
+    max-width: 50rem;
+}

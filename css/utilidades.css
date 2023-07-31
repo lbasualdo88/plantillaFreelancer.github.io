@@ -49,6 +49,8 @@ body{
 }
 .boton:hover {
     cursor: pointer;
+    background-color: var(--Color3);
+    color: var(--Color2);
 }
 
 .sombra {
