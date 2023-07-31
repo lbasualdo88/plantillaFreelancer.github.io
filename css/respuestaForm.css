@@ -22,7 +22,8 @@
 .btn-aceptar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 1rem 50rem;
-   
+    justify-content: center;  
+}
+.btn_form {
+    align-self: center;
 }
