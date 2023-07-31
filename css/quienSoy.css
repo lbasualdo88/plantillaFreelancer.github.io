@@ -1,0 +1,11 @@
+.imagen_linkedin {
+    max-width: 20rem;
+    max-height: 60rem;
+    border-radius: 100%;
+}
+@media (max-width: 768px) {
+   .iconos {
+    display: flex;
+    flex-wrap: wrap;
+   }
+}
