@@ -65,3 +65,10 @@
     font-weight: 50;
     align-self: flex-end;
 }
+@media (max-width: 480px) {
+   .contenedor-campos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+}
