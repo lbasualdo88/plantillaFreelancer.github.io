@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="1400"
+   height="1000"
+   viewBox="0 0 1400 1000"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -26,12 +26,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.58725028"
-     inkscape:cx="372.04724"
-     inkscape:cy="526.1811"
+     inkscape:zoom="0.57525084"
+     inkscape:cx="499.2511"
+     inkscape:cy="588.80605"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
+     units="px"
      inkscape:window-width="1536"
      inkscape:window-height="793"
      inkscape:window-x="3832"
@@ -52,11 +53,12 @@
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-52.362126)">
     <image
-       y="-20.936836"
-       x="-211.01993"
-       id="image3397"
+       y="52.842575"
+       x="-739.76111"
+       id="image3363"
        xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4gxYSUNDX1BST0ZJTEUAAQEAAAxITGlubwIQAABtbnRyUkdC
 IFhZWiAHzgACAAkABgAxAABhY3NwTVNGVAAAAABJRUMgc1JHQgAAAAAAAAAAAAAAAAAA9tYAAQAA
 AADTLUhQICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFj
@@ -18614,7 +18616,7 @@ rBbwkSeA+JB5evqh/mVyZDIYfeGYu8kcWs9WoLf+gRw4ScJPl3+lMJ+l9n6g6x8fR9/RMMOEkg8O
 pt5LqMh/oLd1LDhJYYyH0Nw/TGH/AA3s/UnkMMzb5vdqJ7w9ZDGs6gjC6trbj//Z
 "
        preserveAspectRatio="none"
-       height="422.01135"
-       width="962.27777" />
+       height="1066.4331"
+       width="2392" />
   </g>
 </svg>
