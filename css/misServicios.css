@@ -17,16 +17,24 @@
     font-weight: normal;
 }
 .servicio p {
-    line-height: 2;
+    line-height: 1.5;
     font-size: 1.4rem;
 }
 
-.servicio .iconos {
+.servicio .iconos_diseño, .iconos_desarrollo, .iconos_marketing {
 height: 15rem;
 width: 15rem;
-background-color: var(--Color3);
 border-radius: 50%;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
 } 
+.servicio .iconos_diseño {
+    background-image: url(../img/hero10.svg);
+    } 
+.servicio .iconos_desarrollo {
+    background-image: url(../img/desarrollo1.jpg.svg);
+    } 
+.servicio .iconos_marketing {
+     background-image: url(../img/Marketing1.jpg.svg);
+    } 
