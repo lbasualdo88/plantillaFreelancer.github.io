@@ -68,11 +68,8 @@
     align-self: flex-end;
 }
 @media (max-width: 480px) {
-   .recaptcha {
+   .formulario {
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
    }
 
 }
