@@ -71,6 +71,6 @@
         width: min(60rem, 100%);
     }
   .campo {
-    max-width:max-content;
+    max-width:300px;
   }
 }
