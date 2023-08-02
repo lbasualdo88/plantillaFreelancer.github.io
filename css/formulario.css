@@ -68,6 +68,8 @@
     align-self: flex-end;
 }
 @media (max-width: 480px) {
-   
+   .recaptcha {
+    min-width: min-content;
+   }
 
 }
