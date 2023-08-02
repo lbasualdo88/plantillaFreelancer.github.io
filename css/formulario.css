@@ -10,7 +10,6 @@
 
 .formulario fieldset {
     border: none;
-    min-width:min-content;
 } 
 
 
@@ -71,5 +70,7 @@
    .formulario {
     overflow: hidden;
    }
-
+   .formulario fieldset {
+    margin-right: 1rem;
+} 
 }
