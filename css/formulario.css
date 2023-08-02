@@ -67,10 +67,6 @@
     align-self: flex-end;
 }
 @media (max-width: 480px) {
-    .formulario {
-        width: min(60rem, 100%);
-    }
-  .campo {
-    max-width:300px;
-  }
+   
+
 }
