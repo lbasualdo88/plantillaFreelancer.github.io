@@ -46,6 +46,7 @@
 }
 .campo textarea {
     height: 18rem;
+    resize: none;
 }
 .input-text {
     width: 100%;
@@ -69,9 +70,7 @@
     .formulario {
         width: min(60rem, 100%);
     }
-   .contenedor-campos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   }
+  .campo {
+    max-width:max-content;
+  }
 }
