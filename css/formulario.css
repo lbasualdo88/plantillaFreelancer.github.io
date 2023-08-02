@@ -70,7 +70,9 @@
 @media (max-width: 480px) {
    .recaptcha {
     overflow: hidden;
-    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    }
 
 }
