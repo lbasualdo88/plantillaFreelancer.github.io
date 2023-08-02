@@ -69,8 +69,8 @@
 }
 @media (max-width: 480px) {
    .recaptcha {
-    
-    width: 350px;
+    overflow: hidden;
+    width: 200px;
    }
 
 }
