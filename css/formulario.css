@@ -66,6 +66,9 @@
     align-self: flex-end;
 }
 @media (max-width: 480px) {
+    .formulario {
+        width: min(60rem, 100%);
+    }
    .contenedor-campos {
     display: flex;
     flex-direction: column;
