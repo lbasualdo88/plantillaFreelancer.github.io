@@ -70,7 +70,11 @@
    .formulario {
     overflow: hidden;
    }
-   .formulario fieldset {
-    margin-right: 1rem;
-} 
+   
+   .campo {
+    max-width: 100%;
+   }
+   .recaptcha {
+    max-width: 100% !important;
+   }
 }
