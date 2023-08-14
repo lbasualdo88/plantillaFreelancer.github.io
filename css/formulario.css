@@ -72,6 +72,7 @@
     overflow: hidden;
    }
    .formulario_fieldset {
+    max-width: 80%;
     box-sizing: border-box;
    }
    .campo {
