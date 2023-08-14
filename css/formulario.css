@@ -78,8 +78,14 @@
     max-width: 100%;
     box-sizing: border-box;
    }
+   .campo_input {
+    box-sizing: border-box;
+   }
    .recaptcha {
     max-width: 100% !important;
+    box-sizing: border-box;
+   }
+   .botonEnviar {
     box-sizing: border-box;
    }
 }
