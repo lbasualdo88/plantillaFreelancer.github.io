@@ -10,6 +10,7 @@
 
 .formulario fieldset {
     border: none;
+    box-sizing: border-box;
 } 
 
 
@@ -70,7 +71,9 @@
    .formulario {
     overflow: hidden;
    }
-   
+   .formulario_fieldset {
+    box-sizing: border-box;
+   }
    .campo {
     max-width: 100%;
     box-sizing: border-box;
