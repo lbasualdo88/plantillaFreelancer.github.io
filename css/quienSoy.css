@@ -1,6 +1,5 @@
 .imagen_linkedin {
-    max-width: 20rem;
-    max-height: 60rem;
+    max-width: 18rem;
     border-radius: 100%;
 }
 @media (max-width: 768px) {
