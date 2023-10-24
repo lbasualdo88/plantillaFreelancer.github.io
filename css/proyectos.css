@@ -40,6 +40,7 @@
 .proyecto__boton {
     display: flex;
     justify-content: center;
+    gap: 3rem;
 }
 @media (max-width: 480px) {
     .contenedor {
