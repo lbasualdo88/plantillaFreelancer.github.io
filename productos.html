@@ -1,40 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos</title>
-    <link rel="preload" href="css/normalize.css" as="style">
-    <link rel="stylesheet" href="css/normalize.css"> 
-    <link rel="preload" href="css/anexos.css" as="style"> 
-    <link  rel="stylesheet" href="css/anexos.css"> 
-    <link rel="preload" href="css/utilidades.css" as="style"> 
-    <link  rel="stylesheet" href="css/utilidades.css">  
-    <link rel="preload" href="css/globales.css" as="style"> 
-    <link  rel="stylesheet" href="css/globales.css">  
-    <link rel="preload" href="css/navegacion.css" as="style"> 
-    <link  rel="stylesheet" href="css/navegacion.css">  
-    <link rel="preload" href="css/hero.css" as="style"> 
-    <link  rel="stylesheet" href="css/hero.css">
-    <link rel="preload" href="css/misServicios.css" as="style"> 
-    <link  rel="stylesheet" href="css/misServicios.css">
-    <link rel="preload" href="css/formulario.css" as="style"> 
-    <link  rel="stylesheet" href="css/formulario.css">
-    <link rel="preload" href="css/footer.css" as="style"> 
-    <link  rel="stylesheet" href="css/footer.css">
-    <link rel="preload" href="css/proyectos.css" as="style"> 
-    <link  rel="stylesheet" href="css/proyectos.css">
-    <link rel="preload" href="css/volver.css" as="style"> 
-    <link  rel="stylesheet" href="css/volver.css">
-</head>
-<body>
-    <header>
-        <div class="contenedor anexos">
-            <h1 class="titulo anexos_titulo">Proyectos</h1>
-        </div>
-    </header>
-<main> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyectos</title>
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="preload" href="css/anexos.css" as="style"> 
+        <link  rel="stylesheet" href="css/anexos.css"> 
+        <link rel="preload" href="css/utilidades.css" as="style"> 
+        <link  rel="stylesheet" href="css/utilidades.css">  
+        <link rel="preload" href="css/globales.css" as="style"> 
+        <link  rel="stylesheet" href="css/globales.css">  
+        <link rel="preload" href="css/navegacion.css" as="style"> 
+        <link  rel="stylesheet" href="css/navegacion.css">  
+        <link rel="preload" href="css/hero.css" as="style"> 
+        <link  rel="stylesheet" href="css/hero.css">
+        <link rel="preload" href="css/misServicios.css" as="style"> 
+        <link  rel="stylesheet" href="css/misServicios.css">
+        <link rel="preload" href="css/formulario.css" as="style"> 
+        <link  rel="stylesheet" href="css/formulario.css">
+        <link rel="preload" href="css/footer.css" as="style"> 
+        <link  rel="stylesheet" href="css/footer.css">
+        <link rel="preload" href="css/proyectos.css" as="style"> 
+        <link  rel="stylesheet" href="css/proyectos.css">
+        <link rel="preload" href="css/volver.css" as="style"> 
+        <link  rel="stylesheet" href="css/volver.css">
+    </head>
+    <body>
+        <header>
+            <div class="contenedor anexos">
+                <h1 class="titulo anexos_titulo">Proyectos</h1>
+            </div>
+        </header>
+        <main> 
+<section class="contenedor sombra"><!--Bienes Raices-->
+                    <h2 class="titulo-proyecto">Bienes Raices</h2>
+                        <div class="contenido">
+                            <div class="proyecto">
+                                <img class="proyecto__imagen img-movil" src="/img/bienesyraicesMOVIL.png" alt="Imagen construccion">
+                                <img class="proyecto__imagen img-laptop" src="/img/BienesRaicesLAPTOP.png" alt="Imagen construccion">
+                                <img class="proyecto__imagen img-tablet" src="/img/BienesRaicesTABLET.png" alt="Imagen construccion">
+                            </div>
+                            <div class="proyecto__info">
+                                <p>El proyecto Bienes Raíces inicialmente era estático, y durante su desarrollo, aprendí mucho sobre el frontend. 
+                                    Ahora, he llevado el proyecto al siguiente nivel, convirtiéndolo en una aplicación full stack utilizando PHP, HTML, 
+                                    SASS, Gulp, JavaScript, MySQL, PHPMailer y Composer. 
+                                    En el panel de administrador, el administrador tiene la capacidad de crear, eliminar o modificar propiedades y vendedores. 
+                                    Para estructurar y simplificar el código, he aplicado la arquitectura MVC y el patrón Active Record.</p>
+                            </div>
+                            <div class="iconos">
+                                
+                                <img class="icono" src="/img/html-5.png" alt="Icono html">
+                                <img class="icono" src="/img/css-3.png" alt="Icono css">
+                                <img class="icono" src="/img/js.png" alt="Icono js">
+                                <img class="icono" src="/img/sass_lang_logo_icon_168004.png" alt="Icono sass">
+                                <img class="icono" src="/img/nodejs.png" alt="Icono node">
+                                <img class="icono" src="/img/figma_logo_icon_171159.png" alt="Icono figma">
+                            </div>
+                            <div class="proyecto__boton">
+                                <a class="boton" href="https://github.com/lbasualdo88/BienesRaicesMVC">Repo</a>
+                                <a class="boton" href="https://bienesraiceslb.online">Deploy</a>
+                            </div>
+                        </div>
+</section>
 <section class="contenedor sombra"><!--UpTask-->
     <h2 class="titulo-proyecto">UpTask</h2>
         <div class="contenido">
@@ -274,34 +304,6 @@
                 <a class="boton" href="https://app-banco-nine.vercel.app/">Deploy</a>
             </div>
         </div>
-</section>
-<section class="contenedor sombra"><!--Bienes Raices-->
-        <h2 class="titulo-proyecto">Bienes Raices</h2>
-            <div class="contenido">
-                <div class="proyecto">
-                    <img class="proyecto__imagen img-movil" src="/img/bienesyraicesMOVIL.png" alt="Imagen construccion">
-                    <img class="proyecto__imagen img-laptop" src="/img/BienesRaicesLAPTOP.png" alt="Imagen construccion">
-                    <img class="proyecto__imagen img-tablet" src="/img/BienesRaicesTABLET.png" alt="Imagen construccion">
-                </div>
-                <div class="proyecto__info">
-                    <p>Este proyecto de página web, Bienes Raíces, fue diseñado para ser fácil de usar y fácil de 
-                        navegar tanto para el cliente como para el dueño. La página fue creada utilizando HTML, CSS, JavaScript y SASS; y me centre en 
-                        el diseño y la funcionalidad para garantizar que los visitantes puedan encontrar fácilmente la información que están buscando.</p>
-                </div>
-                <div class="iconos">
-                    
-                    <img class="icono" src="/img/html-5.png" alt="Icono html">
-                    <img class="icono" src="/img/css-3.png" alt="Icono css">
-                    <img class="icono" src="/img/js.png" alt="Icono js">
-                    <img class="icono" src="/img/sass_lang_logo_icon_168004.png" alt="Icono sass">
-                    <img class="icono" src="/img/nodejs.png" alt="Icono node">
-                    <img class="icono" src="/img/figma_logo_icon_171159.png" alt="Icono figma">
-                </div>
-                <div class="proyecto__boton">
-                    <a class="boton" href="https://github.com/lbasualdo88/BienesRaices.github.io">Repo</a>
-                    <a class="boton" href="https://bienes-raices-github-io.vercel.app/">Deploy</a>
-                </div>
-            </div>
 </section>
 <section class="contenedor sombra"><!--Anotador de tareas-->
         <h2 class="titulo-proyecto">Anotador de tareas</h2>
